@@ -15,6 +15,10 @@ let numero = 1; /* Questa è una variabile a cui viene assegnato un numero */
 let parola =
   "Ciao!"; /* Questa è invece una variabile a cui viene assegnata una parola, una "stringa" */
 let esempioBool = false; /* Questa è una variabile che può essere solo vera o falsa, un "boolean" */
+let esempioNull = null; /* Viene utilizzato quando la variabile è vuota */
+let esempioUndef =
+  undefined; /* Viene utilizzato quando la variaible non è ancora stata definita*/
+
 /* console.log("Numero: " + numero);
 console.log("Parola: " + parola);
 console.log("Boolean: " + esempioBool); */
@@ -73,5 +77,5 @@ let name1 = "john";
 let name2 = "John";
 console.log(name1 === name2); /* Questo risulterà falso sul terminal */
 console.log(
-  name1.toLocaleLowerCase === name2.toLocaleLowerCase
+  name1.toLocaleLowerCase() === name2.toLocaleLowerCase()
 ); /* Questo risulterà vero sul terminal */
